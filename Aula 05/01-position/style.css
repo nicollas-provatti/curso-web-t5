@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 200vh;
+}
+
+#container {
+  background-color: #ccc;
+  border: 1px solid black;
+  width: 80%;
+  min-height: 300px;
+  margin: 100px auto 0;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.content {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #fff;
+  background-color: #3639f4;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 98px;
+  font-weight: bold;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
