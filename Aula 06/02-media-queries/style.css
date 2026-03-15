@@ -1,0 +1,13 @@
+/* Se a largura da tela for maior ou igual a 768px  */
+body {
+  background-color: lightcoral;
+}
+/* Se a largura da tela estiver entre 480-767px  */
+body {
+  background-color: lightgreen;
+}
+
+/* Se a largura da tela estiver entre 0-479px  */
+body {
+  background-color: lightblue;
+}
